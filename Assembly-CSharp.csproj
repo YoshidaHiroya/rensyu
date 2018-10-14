@@ -51,11 +51,11 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\CameraScript.cs" />
      <Compile Include="Assets\Script\ball.cs" />
      <Compile Include="Assets\Script\ballScript.cs" />
      <Compile Include="Assets\Script\blockScript.cs" />
      <Compile Include="Assets\Script\but.cs" />
+     <Compile Include="Assets\Script\CameraScript.cs" />
      <Compile Include="Assets\Script\dodleScript.cs" />
      <Compile Include="Assets\Script\paddle2Script.cs" />
      <Compile Include="Assets\Script\paddleScript.cs" />
