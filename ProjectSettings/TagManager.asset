@@ -8,6 +8,8 @@ TagManager:
   - batter
   - goal1
   - goal2
+  - yuka
+  - plane
   layers:
   - Default
   - TransparentFX

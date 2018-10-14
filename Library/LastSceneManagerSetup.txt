@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/block.unity
+- path: Assets/Scene/dodlejump.unity
   isLoaded: 1
   isActive: 1

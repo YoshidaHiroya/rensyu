@@ -4,12 +4,15 @@ public class ballScript : MonoBehaviour
 {
 	public float speed = 25;
 	private GameObject Message;//このスクリプト内でのみ有効なゲームオブジェクトMessageを定義。ここにmessageをいれる。
+
 	Text text ;//Text型の変数textを定義。
 
 	private void Start()
 	{
 		Message= GameObject.Find ("message");//Hierarchyのmessageオブジェクトを探し出し、さっきのmessageにいれる。
+
 		text = Message.GetComponent<Text> ();//Messageはmessageを指しているので、TextをGetComponentし、さっきのtextにいれる。
+
 		var force = (transform.right + transform.forward) * speed;
 		this.GetComponent<Rigidbody> ().AddForce (force,ForceMode.VelocityChange);
 
@@ -25,5 +28,6 @@ public class ballScript : MonoBehaviour
 
 			text.text="Player1の勝ち！";
 		}
+
 	}
 }
