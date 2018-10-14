@@ -51,13 +51,14 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\ball.cs" />
-     <Compile Include="Assets\but.cs" />
-     <Compile Include="Assets\New Folder\SphereScript.cs" />
+     <Compile Include="Assets\Script\ball.cs" />
      <Compile Include="Assets\Script\ballScript.cs" />
      <Compile Include="Assets\Script\blockScript.cs" />
+     <Compile Include="Assets\Script\but.cs" />
+     <Compile Include="Assets\Script\dodleScript.cs" />
      <Compile Include="Assets\Script\paddle2Script.cs" />
      <Compile Include="Assets\Script\paddleScript.cs" />
+     <Compile Include="Assets\Script\SphereScript.cs" />
  <Reference Include="UnityEngine.Analytics">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
  </Reference>
