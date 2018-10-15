@@ -3,13 +3,7 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags:
-  - ball
-  - batter
-  - goal1
-  - goal2
-  - yuka
-  - plane
+  tags: []
   layers:
   - Default
   - TransparentFX
@@ -19,7 +13,7 @@ TagManager:
   - UI
   - 
   - 
-  - 
+  - Player
   - 
   - 
   - 

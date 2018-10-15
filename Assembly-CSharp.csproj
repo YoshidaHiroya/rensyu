@@ -51,6 +51,15 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Invector-3rdPersonController\Basic Locomotion LITE\Scripts\Camera\vThirdPersonCamera.cs" />
+     <Compile Include="Assets\Invector-3rdPersonController\Basic Locomotion LITE\Scripts\CharacterController\vThirdPersonAnimator.cs" />
+     <Compile Include="Assets\Invector-3rdPersonController\Basic Locomotion LITE\Scripts\CharacterController\vThirdPersonController.cs" />
+     <Compile Include="Assets\Invector-3rdPersonController\Basic Locomotion LITE\Scripts\CharacterController\vThirdPersonInput.cs" />
+     <Compile Include="Assets\Invector-3rdPersonController\Basic Locomotion LITE\Scripts\CharacterController\vThirdPersonMotor.cs" />
+     <Compile Include="Assets\Invector-3rdPersonController\Basic Locomotion LITE\Scripts\Generic\vComment.cs" />
+     <Compile Include="Assets\Invector-3rdPersonController\Basic Locomotion LITE\Scripts\Generic\vDestroyGameObject.cs" />
+     <Compile Include="Assets\Invector-3rdPersonController\Basic Locomotion LITE\Scripts\Generic\vExtensions.cs" />
+     <Compile Include="Assets\Invector-3rdPersonController\Basic Locomotion LITE\Scripts\Generic\vPickupItem.cs" />
      <Compile Include="Assets\Script\ball.cs" />
      <Compile Include="Assets\Script\ballScript.cs" />
      <Compile Include="Assets\Script\blockScript.cs" />
@@ -60,11 +69,14 @@
      <Compile Include="Assets\Script\dodleScript.cs" />
      <Compile Include="Assets\Script\paddle2Script.cs" />
      <Compile Include="Assets\Script\paddleScript.cs" />
+     <Compile Include="Assets\Script\PlayerController.cs" />
      <Compile Include="Assets\Script\playerScript.cs" />
      <Compile Include="Assets\Script\Prefab\BlockManager.cs" />
+     <Compile Include="Assets\Script\soccorSript.cs" />
      <Compile Include="Assets\Script\SphereScript.cs" />
-     <Compile Include="Assets\soccorSript.cs" />
-     <Compile Include="Assets\yaruoScript.cs" />
+     <Compile Include="Assets\Script\yaruoScript.cs" />
+     <None Include="Assets\Poly City - Free Cartoon Pack\Readme.txt" />
+     <None Include="Assets\Invector-3rdPersonController\Basic Locomotion LITE\README_Basic.txt" />
  <Reference Include="UnityEngine.Analytics">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
  </Reference>
