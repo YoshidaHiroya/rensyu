@@ -29,9 +29,11 @@ public class playerScript : MonoBehaviour {
 		}
 	}
 	void OnCollisionEnter(Collision collision){
+		//if(collision.relativeVelocity.y<0.0f){
 		if(collision.gameObject.tag=="yuka"){
 		Debug.Log("あたり!");
 		rb.velocity = new Vector3(0, speed,0);
+		//	}
 		}
 	}
 			

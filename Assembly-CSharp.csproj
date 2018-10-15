@@ -63,6 +63,8 @@
      <Compile Include="Assets\Script\playerScript.cs" />
      <Compile Include="Assets\Script\Prefab\BlockManager.cs" />
      <Compile Include="Assets\Script\SphereScript.cs" />
+     <Compile Include="Assets\soccorSript.cs" />
+     <Compile Include="Assets\yaruoScript.cs" />
  <Reference Include="UnityEngine.Analytics">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
  </Reference>
