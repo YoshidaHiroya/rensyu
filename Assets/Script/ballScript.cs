@@ -13,7 +13,7 @@ public class ballScript : MonoBehaviour
 
 		text = Message.GetComponent<Text> ();//Messageはmessageを指しているので、TextをGetComponentし、さっきのtextにいれる。
 
-		var force = (transform.right + transform.forward) * speed;
+		var force = new Vector3(1,0,1) * speed;
 		this.GetComponent<Rigidbody> ().AddForce (force,ForceMode.VelocityChange);
 
 	}
