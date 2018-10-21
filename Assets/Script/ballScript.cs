@@ -4,11 +4,12 @@ public class ballScript : MonoBehaviour
 {
 	public float speed = 25;
 	private GameObject Message;//このスクリプト内でのみ有効なゲームオブジェクトMessageを定義。ここにmessageをいれる。
-
+	AudioSource audiosource;
 	Text text ;//Text型の変数textを定義。
 
 	private void Start()
 	{
+		audiosource = this.GetComponent<AudioSource> ();
 		Message= GameObject.Find ("message");//Hierarchyのmessageオブジェクトを探し出し、さっきのmessageにいれる。
 
 		text = Message.GetComponent<Text> ();//Messageはmessageを指しているので、TextをGetComponentし、さっきのtextにいれる。
@@ -21,6 +22,7 @@ public class ballScript : MonoBehaviour
 	}
 
 	void OnCollisionEnter(Collision collision){
+		audiosource.Play ();
 		if (collision.gameObject.tag == "goal1") {
 			text.text="Player2の勝ち！";//テキスト型変数の中身を変更する。
 		}
